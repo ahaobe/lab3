@@ -50,7 +50,7 @@
 ![MyComToJava.dll](https://i.loli.net/2019/06/21/5d0c5e20a485b86718.jpg
 )
 
-### 2. 注册COM组件至系统:
+### 2. 注册COM组件至系统
 开始菜单->打开VS 2015自带CMD命令窗口（管理员权限）->定位至MyComToJava.dll文件夹下  。
 执行：gacutil /i MyComToJava.dll 添加dll至全局缓存 ；
 执行：regasm MyComToJava.dll 注册dll至系统 。
